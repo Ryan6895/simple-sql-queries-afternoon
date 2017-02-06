@@ -1,0 +1,74 @@
+/*  CREATE table Person
+(
+PersonID INTEGER Primary Key Autoincrement,
+Name varchar(40),
+Age Integer,
+Height double,
+City varchar(40),
+FavoriteColor varchar(40)
+); */
+
+/* INSERT INTO Person (Name,Age, Height, City, FavoriteColor)
+VALUES ('Ryan',21, 5, 'Cincinnati', 'Blue'),
+('Andrew',28, 5, 'Washington', 'Red'),
+('Frank',28, 54 , 'Bay Area', 'Orange'),
+('Reagan',20,53 , 'Orlando', 'Purple'),
+('Niall',19,59 , 'Salt Lake City', 'Yellow'),
+('George',21,57 , 'Portland', 'Green');
+
+SELECT * FROM Person
+order by Height Desc
+
+SELECT * FROM Person
+order by Height  */
+
+/* SELECT * FROM Person
+order by Age Desc */
+
+/* SELECT * FROM Person
+Where Age > 20 */
+/*
+SELECT * FROM Person
+WHERE Age=18; */
+
+/* SELECT * FROM Person
+Where Age > 20 and age < 30 */
+
+/* SELECT * FROM Person
+Where Age != 27 */
+
+/* SELECT * FROM Person
+Where FavoriteColor != 'Red' */
+/*
+SELECT * FROM Person
+Where FavoriteColor != 'Red' and FavoriteColor != 'Blue' */
+
+/* SELECT * FROM Person
+Where FavoriteColor = 'Orange' Or FavoriteColor = 'Green' */
+
+/* SELECT * FROM Person
+Where FavoriteColor in ('Orange','Green','Blue') */
+
+/* SELECT * FROM Person
+Where FavoriteColor in ('Yellow','Purple') */
+
+/*  CREATE table Orders
+(
+OrderID INTEGER Primary Key Autoincrement,
+ProductName varchar(40),
+ProductPrice Double,
+Quantity Integer
+);
+
+INSERT INTO Orders (ProductName,ProductPrice, Quantity)
+VALUES ('Milk',21, 5),
+('Eggs',28, 5),
+('Cheese',28, 4),
+('Chicken',20,3),
+('Noodles',19,9); */
+
+/* Select * from Orders */
+
+/* SELECT SUM(Quantity) AS TotalItemsOrdered FROM Orders;
+
+SELECT SUM(ProductPrice) AS TotalItemsOrdered FROM Orders; */
